@@ -1,0 +1,67 @@
+.side-drop{
+    /* height:100px; */
+   
+}
+.dragger{
+    width: 220px;
+    height: 45px;
+    background-color:#F4F5F7;
+    /* z-index: -9999; */
+    margin-bottom:20px;
+    border-radius: 2px;
+    border-radius:4px;
+}
+
+
+
+
+.dragcontent{
+    align-items: center;
+}
+
+.sidetitle{
+  display: flex;
+  justify-content:space-between;
+  margin-top: -35px;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.dragcontent p{
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+
+.all-drags{
+    height: 100%;
+    margin-top:10px;
+}
+
+.aligns{
+    display: flex;
+justify-content:space-between;
+margin-right: 60px;
+}
+
+.towel{
+    width: 40px;
+    height: 43px;
+    background-color:#D0DEF0;
+    font-size:17px;
+    margin-top: -4px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+
+}
+
+ .addIcon{
+    font-size:20px; 
+}
+
+
+

@@ -1,0 +1,55 @@
+.pageOne{
+    font-size: "Poppins";
+    
+}
+
+.container{
+    width: 1050px;
+    border-left: 3px solid #4C9AFF;
+    background-color:#F4F5F7;
+    color:#000 ;
+    height: 192px;  
+}
+
+.headercontent{
+    /* position: relative; */
+    display:flex;
+   
+}
+
+
+.headercontent .title{
+    margin-left: 20%;
+    position: absolute;
+    margin-top: 35px;
+    width: 200px;
+}
+
+.headercontent .title h5{
+    font-weight: bold;
+    font-family: "Poppins";
+
+}
+
+.headercontent .title p{
+    width: 700px;
+    font-family: "Poppins";
+    font-size:15px;
+
+}
+
+.container .box{
+    position: absolute;
+width: 176px;
+height: 192px;
+color:#000000;
+background-color:#ACACAC;
+text-align: center;
+margin-left: -13px;
+}
+
+.box h4{
+    font-size:18px;
+    margin-top:57px
+}
+

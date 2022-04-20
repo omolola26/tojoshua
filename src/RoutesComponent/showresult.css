@@ -1,0 +1,251 @@
+
+
+.showResultContainer{
+    /* background-color:none;
+    width:40%;*/
+    min-height:755px;
+    padding-top:30px;
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+
+
+.showResultContainer .border{
+    margin-top:30px;
+    margin-left: 43px;
+    width:82%;
+    height: 1px;
+    color:#C1C7D0;
+
+}
+
+.showdate h1{
+font-size:20px;
+font-family: "Poppins";
+font-weight:bold;
+display: flex;
+}
+
+
+.showTitle{
+    display:flex;
+    justify-content:space-between;
+}
+
+
+
+.showTitle > .showdate input{
+   font-size: 14px;
+   font-family: "Poppins";
+        width: 150px;
+    height: 24px;
+    font-family: "Poppins";
+    font-weight:500;
+    background-color: #DEEBFF;
+    border-radius: 3px;
+    padding-left: 15px;
+    outline: none;
+    border: none;
+}
+
+.showTitle button{
+    width: 180px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: #FFBDAD;
+    color: red;
+    font-family: "Poppins";
+    font-size: 17px;
+    display: flex;
+justify-content:space-around;
+align-items: center;
+font-weight:500;
+border-radius: 3px;
+}
+
+.showResult i{
+    font-size: 25px;
+}
+.biography{
+margin-top: 40px;
+}
+
+.inputData{
+    margin-top:40px;
+}
+
+.biography h3{
+    font-family: "Poppins";
+    font-size:  18px;
+    font-weight:bold;
+}
+
+
+.biography p{
+    font-family: "Poppins";
+    font-size:  13px;
+    font-weight:500;
+}
+
+.inner-input{
+    display: flex;
+    flex-direction: column;
+}
+
+
+label{
+    font-family: "Poppins";
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight:500 ;
+    color: #091E42;
+}
+
+
+.inner-input .bvn-only{
+    width: 270px;
+    height:50px;
+    outline: none;
+    border: none;
+    padding:10px;
+    font-family: "Poppins";
+    font-size: 12px;
+    margin-bottom: 30px;
+    color: #091E42;
+}
+
+.inner-input > input{
+    width: 270px;
+    height:50px;
+    outline: none;
+    border: none;
+    padding:10px;
+    font-family: "Poppins";
+    font-size: 12px;
+    margin-bottom: 30px;
+    color: #091E42;
+    
+}
+
+::placeholder{
+    font-size: 14px;
+}
+.general-input{
+    display: flex;
+    justify-content:space-between;
+}
+
+.diff-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.diff-input input{
+    width: 290px;
+    height:120px;
+    outline: none;
+    border: none;
+    padding:10px;
+    font-family: "Poppins";
+    font-size: 12px;
+    margin-bottom: 30px;
+    color: #091E42;
+}
+
+
+textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+}
+
+.bio-bvn{
+    margin-top: 60px;
+}
+
+.bio-input{
+    margin-top: 50px;
+}
+
+.bio-bvn h3{
+    font-family: "Poppins";
+    font-size:  18px;
+    font-weight:bold;
+}
+
+.bio-bvn p{
+    font-family: "Poppins";
+    font-size:  13px;
+    font-weight:500;
+}
+
+.bvn-input{
+    display: flex;
+    flex-direction: column;
+}
+
+.bvn-input  input{
+width: 290px;
+height:50px;
+outline: none;
+border: none;
+padding:10px;
+font-family: "Poppins";
+font-size: 12px;
+margin-bottom: 30px;
+color: #091E42;
+}
+
+.bvn-input label{
+    font-family: "Poppins";
+    font-size: 15px;
+    margin-bottom: 5px;
+    font-weight:500 ;
+    color: #091E42;
+}
+
+.bvn-title{
+    margin-bottom:30px
+}
+
+.bvn-input span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    
+    margin-right:100px;
+    font-size: 11px;
+    font-weight:700;
+    color:#006644;
+}
+
+.bvn-input span i{
+font-size:15px;
+font-weight: 600;
+margin-right:3px; 
+}
+
+.bvn-link{
+    display: flex;
+}
+
+.bvn-link > a{
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 500;
+    margin-top: 40px;
+    margin-left: 30px;
+    text-decoration: underline;
+}
+

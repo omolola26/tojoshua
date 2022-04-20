@@ -1,0 +1,479 @@
+.four{
+    width:1100px;
+    background-color: #ffffff;
+    min-height:800px;
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 30px; */
+   }
+   
+   .fourall{
+       /* position: relative; */
+       margin-left: 10%;
+       /* z-index: -19; */
+   }
+   
+   .A4content{
+       /* position: absolute; */
+       /* top: -50px; */
+       display: flex;
+       justify-content:space-between;
+   }
+
+   .pagecancel{
+    display: flex;
+   }
+   
+   
+   .pagecancel button{
+       background-color:#B3BAC5;
+       color: #000;
+       display: flex;
+       align-items:center;
+       justify-content:space-between;
+       font-size:17px;
+       font-family: "Poppins";
+       font-weight:500;
+       height:50px;
+       width:151px;
+       padding:0px 20px;
+       border: none;
+       outline: none;
+   }
+
+
+   .pagecancel button.active{
+    background-color:#0747A6;
+    color: #fff;
+}
+   
+   .A4content .pagecancel button i{
+       font-size:20px;
+   }
+   
+   .A4content .pageadd i{
+       font-size:20px;
+       /* margin-top: -50px; */
+   }
+
+   /* const afour = document.querySelector"(".book"); */
+
+  
+   .pageadd button{
+       background-color:#B3BAC5;
+       display: flex;
+       align-items:center;
+       justify-content: space-between;
+       padding:0px 20px;
+       color:black;
+       height:50px;
+       width:151px;
+       border: none;
+       outline: none;
+       font-family: "Poppins";
+       font-weight:500;
+   }
+   
+   .collaborate button{
+       background-color:black;
+       color:#fff;
+       height:50px;
+       width:151px;
+       border: none;
+       outline: none;
+       font-family: "Poppins";
+       font-weight:500;
+       margin-left: 73%;
+   }
+   .collaborate{
+       /* margin-left: 133%; */
+   }
+   
+   .forbutton{
+       display:flex
+   }
+   .forbutton button{
+       /* margin-left:10px; */
+   margin-right: 10px;
+   }
+   
+   .collaborating{
+       display:flex;
+       flex-direction:column;
+       margin-top: 100px;
+       align-items:center;
+       position:absolute;
+   }
+   
+   .innerdiv{
+       display:flex;
+       justify-content:center;
+       align-items:center;
+       margin-top: 30px;
+       background-color:#F4F5F7;
+       height: 192px;
+       width: 1000px;
+       margin-left:50px;
+      
+   }
+   
+   .inner{
+       display:flex;
+       justify-content:center;
+       align-items:center;
+       width:700px;
+       background-color:#B3BAC5;
+       left:40px;
+       height:1px;
+       position: relative;
+   }
+   
+   .innerdiv p{
+       font-family: "Poppins";
+       font-size: 12px; 
+       font-weight:500;
+   }
+   
+   .inner p{
+       position: absolute;
+       color:#B3BAC5;
+       font-family: "Poppins";
+       font-size: 12px;
+       left:40%;
+   top: -10px;
+   padding:0px 10px;
+   background-color:white;
+   }
+
+   .collaborator-title{
+      margin-top: 10px;
+       margin-bottom:40px;
+   }
+
+   .collaborator-title h1{
+        line-height: 0.5;
+        font-family: "Poppins";
+        font-size:22px;
+        font-weight: 700;
+        color: #091E42;
+
+   }
+ .collaborator-title p{
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size:  13px;
+    color: #091E42;
+ }
+
+.collaborator-contents{
+    margin-top:-40px;
+    margin-left:30px;
+}
+
+
+
+.ant-modal-content{
+min-width:550px;
+position: relative;
+}
+
+.ant-modal-close-x{
+    background-color: rgba(128, 128, 128, 0.298);
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    color: #000;
+}
+
+
+.fieldDrop{
+}
+
+
+#formBasic{
+    padding: 20px;
+    font-size:15px;
+    font-family: "Poppins";
+    font-weight:400;
+    color: #091E42;
+}
+
+::placeholder{
+    color: #091E42;
+    font-size:  15px;
+    font-weight: 500;
+}
+
+.fieldsAdd input{
+    width: 370px;
+    height:58px;
+    outline: none;
+    border: none;
+    color: #091E42;
+    border-bottom: 1px solid #000000;
+    background-color:#EBECF0;
+    padding: 20px;
+    }
+
+    
+
+    .modal-content { 
+        width: 600px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 0.3rem;
+    }
+
+
+    
+    
+    .modal-inner-content{
+        display:flex ;
+        justify-content:space-between;
+       
+    }
+
+
+     .inputDropDownOptions {
+        padding: 15px;
+        font-size: 15px;
+        font-family: "Poppins";
+        font-weight: 400;
+        width: 100px;
+        color: #091E42;
+        border: none;
+        border-bottom: 1px solid #000000;
+        background-color: #EBECF0;
+        outline: none;
+     }
+
+     .modal-contributor:hover{
+        /* background-color: rgba(41, 32, 32, 0.161); */
+        padding-left:0px;
+        margin-right: 0px;
+        margin-left:0px;
+        padding-right: 0px;
+        width:100%;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+     }
+
+     .modalImg h5{
+         font-family: "Poppins";
+         font-size:13px;
+         font-weight: 800;
+         color: #091E42;
+ 
+    }
+  .modalImg p{
+     font-family: "Poppins";
+     font-weight: 500;
+     font-size:  12px;
+     color: #091E42;
+  }
+
+  .modal-names{
+      display:flex;
+  }
+
+.modalImg{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 0;
+
+}
+
+
+.modal-contributor:hover{
+    /* background-color: rgba(59, 53, 53, 0.151);
+    margin-left: -10px;
+    padding-right: 0px; */
+}
+
+.modalImg img{
+    height: 50px;
+}
+
+.modalImg span{
+    margin-left:10px;
+    line-height: 1.5;
+}
+
+.modal-contributor .owner{
+    color: rgba(98, 86, 86, 0.511);
+    /* margin-top:30px; */
+    font-style: italic;
+    font-family: "Poppins";
+    font-size: 17px;
+}
+.modal-owner{
+    /* display: flex;
+    justify-content: flex-end; */
+}
+
+.modal-content-btn{
+    display: flex;
+    justify-content: flex-end; 
+    
+}
+
+.modal-content-btn button{
+    height: 59px;
+    font-family: "Poppins";
+    width: 150px;
+    font-weight: 500;
+    background-color:#1633A3;
+    color: #ffffff;
+    font-size:14px;
+    outline: none;
+    border: none;
+    margin-top: 50px;
+    border-radius: 4px;
+   
+}
+
+#dropdown-menu-align-end{
+    padding: 17px;
+        font-size: 15px;
+        font-family: "Poppins";
+        font-weight: 600;
+        width: 100px;
+        color: #091E42;
+        border: none;
+        border-bottom: 1px solid #000000;
+        background-color: #EBECF0;
+        outline: none;
+        border-radius:0px;
+}
+
+#dropdown-basic-button{
+    background-color:#EBECF0;;
+    color: #000;
+    font-weight:bold;
+    padding:15px;
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid #000000;
+
+}
+
+
+.menu-show{
+    background:none;
+    color: rgba(86, 78, 78, 0.822);
+    font-weight:bold;
+    padding:3px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Poppins";
+    font-weight: 500;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+   
+}
+.menu-show i{
+    font-size:25px;
+}
+
+
+
+.menu-show:hover{
+padding: 3px;
+border-radius: 5px;
+background:rgba(74, 65, 65, 0.105);
+}
+.more-cards{
+    position:relative;
+}
+
+.more-contents{
+    left: 0px;
+}
+
+#allcheck{
+    margin-left: 10px;
+    display: flex;
+}
+
+
+
+.more-sections{
+    position:absolute;
+    background-color:#fff;
+    width: 200px;
+    border-radius:5px;
+    padding: 20px 10px;
+    right:0;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.767);
+    font-family: "Poppins";
+}
+
+.more-sections span{
+    display:flex;
+    align-items:center;
+    /* border-bottom: 1px solid rgba(204, 204, 204, 0.425); */
+    padding: 0px 10px;
+    /* margin-top:20px; */
+    margin-left:17px ;
+    cursor:pointer;
+    /* padding-bottom:7px; */
+    
+}
+
+.more-sections span p{
+font-size: 17px;
+font-family: "Poppins";
+}
+
+.more-card-sections span:hover{
+    background-color: rgba(204, 204, 204, 0.425);
+}
+
+
+.more-sections span i{
+    margin-right:10px;
+    color: rgba(0, 0, 0, 0.774);
+    font-size: 25px;
+    color: #1633A3;
+}
+
+.more-sections .diff{
+    border-top: 2px solid rgba(204, 204, 204, 0.425); 
+}
+
+.checkstyle{
+    /* margin-top:-30px; */
+   
+}
+
+
+input[type="checkbox"]{
+    height:20px;
+    width: 20px;
+    border: none;
+    /* margin-bottom: 30px; */
+}
+
+
+
+/* .field{
+    border: 1px solid black;
+}
+
+.field-set{
+    position: relative;
+margin-top:20px;
+width: 200px;
+}
+
+.lable{
+position: absolute;
+left: 20px;
+top: -10px;
+padding:0px 20px;
+} */
+

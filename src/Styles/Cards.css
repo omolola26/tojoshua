@@ -1,0 +1,259 @@
+.gallery {
+    background-color: #d2d6db;
+    margin: 0px;
+    padding: 0px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .card-gallery {
+    position: relative;
+    background: #FFFFFF;
+    border: 1px solid #DEEBFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    height: 20rem;
+  }
+
+.card-body-gallery{
+  margin:0px 20px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 12px;
+  margin-top:-10px ;
+}
+
+.card-title-gallery {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Poppins";
+  margin: 30px 0px 10px -2px;
+}
+
+/* .card-text{
+  background-color:#D1E5FF;
+  height: 22px;
+  width: 120px;
+  border-radius: 2px;
+  text-align: center;
+} */
+
+  .card-img-top-overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(139,149,166, 0.5);
+    transition: .3s ease;
+    color: #fff;
+  }
+
+  .card-gallery:hover .card-img-top-overlay{
+    display: block;
+  }
+
+  /* .hideModal{
+    display:none;
+} */
+  
+  .form-preview .form-control {
+    width: 20px;
+    height: 60px;
+    margin: 15px 0px;
+  }
+
+  .toggle {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+  height: 12px;
+  width: 32px;
+  border-radius: 16px;
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  border: 2px solid #8b95a6;
+  background: linear-gradient(180deg, #8b95a6 0%, #8b95a6 100%);
+  transition: all .2s ease;
+  }
+
+  .toggle:focus {
+    outline: 0;
+  }
+
+  .toggle:after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 2px;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0 1px 2px rgba(44,44,44,.2);
+    transition: all .2s cubic-bezier(.5,.1,.75,1.35);
+  }
+  .toggle:checked {
+    border-color: #654FEC;
+  }
+  .toggle:checked:after {
+      transform: translatex(18px);
+  }
+
+  .label-verification {
+    margin-left: 10px;
+  }
+  
+  .preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  
+
+  .card-img-top-overlay .preview button {
+    background-color: #172b4d;
+    /* color: #fff; */
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border: none;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+  }
+
+  .overlay-icon i{
+    background-color: #172b4d;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 30px;
+
+  }
+
+  .modal-preview-gallery {
+    margin: 50px;
+  }
+
+  .modal-body {
+    position: relative;
+    flex: 1 1 auto;
+    padding: 0 4rem 0 4rem;
+    margin: 20px 0;
+  }
+
+.modal-content {
+	/* position: relative; */
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* pointer-events: auto; */
+  width: 100%;
+	/* background-clip: padding-box; */
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 0.3rem;
+	/* outline: 0; */
+}
+
+.header-gallery {
+	display: flex;
+	align-items: center;
+	/* justify-content: space-between; */
+	margin: 20px;
+  padding: 20px 42px;
+}
+
+.header-gallery .logo {
+  border-left: 3.5px solid #4C9AFF;
+}
+
+.header-content-gallery {
+	background: #f4f5f7;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 800px;
+	padding: 15px;
+  height: 12rem;
+  /* margin-top: 90px; */
+}
+
+.header-text-gallery {
+	display: flex;
+	flex-direction: column;
+	font-size: 14px;
+}
+
+.header-button-gallery button {
+	background: #1633a3;
+	border-radius: 3px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 163px;
+	height: 52px;
+	font-size: 12px;
+	color: #ffffff;
+	border: none;
+	outline: none;
+}
+
+.form-preview input {
+  border-bottom: 1px solid #000000;
+  background-color: #EBECF0;
+}
+
+.form-data {
+  padding: 30px;
+  background: #f4f5f7;
+  height: 515px;
+  border-left: 3.5px solid #4C9AFF;
+}
+
+  form {
+    margin-top: 30px;
+}
+
+.person-data {
+  position: relative;
+  margin: 40px 0;
+  padding: 30px;
+  background: #f4f5f7;
+  height: 443px;
+  border-left: 3.5px solid #4C9AFF;
+}
+
+/* .form-control {
+	margin: 20px 0px;
+} */
+
+.persona-button button{
+  background: #1633a3;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  position: absolute;
+  bottom: 70px;
+  right: 20px;
+	width: 163px;
+	height: 52px;
+	font-size: 12px;
+	color: #ffffff;
+	border: none;
+	outline: none;
+}

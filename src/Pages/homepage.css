@@ -1,0 +1,67 @@
+.homePages{
+    background-color: #EBECF0;
+    min-height: 800px;
+    overflow: hidden;
+    }
+    
+    .sliders{
+        background-color:#fff;
+        width: 300px;
+        z-index: -9999;
+        padding: 30px 35px;
+    }
+    
+
+    .log{
+        width: 250px;;
+        display: flex;
+        height:70px;
+        background-color:#F4F5F7 ;
+        border-radius:6px;
+        font-family: "Poppins";
+        font-size:14px;
+        font-weight: bold;
+        padding-top:25px;
+        padding-bottom:15px;
+        padding-left:15px;
+        padding-right:10px;
+        margin-left:-13px;
+        margin-top: 25%;
+       
+    }
+
+    .logg{
+        background-color:#2F394B;
+        width: 120px;
+        border-radius:7px;
+        color: #fff;
+        height: 50px;
+        display: flex;
+        justify-content:center;
+        margin-top: -14px;
+    }
+
+    .forms {
+        margin-top:13px;
+    }
+   
+    .layer{
+        margin-left:10px ;
+
+    }
+.dragAll{
+    background-color:black;
+}
+   .dragOne{
+       width: 250px;
+       height:45px;
+       background-color:#F4F5F7;    
+   }
+   
+   .dragOne .unique{
+    height: 45px;
+    width: 50px;
+    background-color:#D0DEF0;
+   } 
+
+   
